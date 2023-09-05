@@ -4,8 +4,10 @@
   "Мова": "English",
   "Сторінка не знайдена": "Page Not Found",
   "Трапилася непередбачувана помилка": "An unforeseen error occurred",
-  "Оновити сторінку": "Оновити сторінку",
+  "Оновити сторінку": "Update Page",
   "throw error": "throw error",
   "Toggle": "Toggle",
-  "Коротка мова": "EN"
+  "Коротка мова": "EN",
+  "Головна сторінка": "Main page",
+  "Про сайт": "About us"
 }

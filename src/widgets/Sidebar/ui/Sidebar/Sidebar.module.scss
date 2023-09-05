@@ -16,6 +16,7 @@
 
 .lang {
     margin-left: 20px;
+    color: var(--secondary-color);
 }
 
 .collapseBtn {
@@ -34,6 +35,7 @@
 }
 
 .link {
+    color: var(--secondary-color);
     margin-left: 44px;
     opacity: 1;
     contain: strict;
@@ -57,7 +59,7 @@
     }
 
     .lang {
-        margin-left: 0;
+        margin-left: 5px;
     }
 
     .link {
@@ -65,7 +67,7 @@
         position: relative;
         white-space: nowrap;
         opacity: 0;
-        transition: 0.5s opacity;
+        transition: 0.2s opacity;
         width: 0;
         z-index: 1;
     }
