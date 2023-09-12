@@ -11,12 +11,16 @@
 
 .Modal.dark {
     --bg-color: #505050;
-    --primary-color: #fff;
+    --primary-color: #505050;
+
+    color: white;
 }
 
 .Modal.light {
     --bg-color: #505050;
-    --primary-color: #fff;
+    --primary-color: #fffdfd;
+
+    color: black;
 }
 
 .overlay {
