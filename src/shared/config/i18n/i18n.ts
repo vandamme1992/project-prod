@@ -11,6 +11,9 @@ i18n
     .use(initReactI18next)
 
     .init({
+        react: {
+            useSuspense: false,
+        },
 
         fallbackLng: 'ua',
         debug: __IS_DEV__,

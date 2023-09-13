@@ -9,20 +9,6 @@
     z-index: -1;
 }
 
-.Modal.dark {
-    --bg-color: #505050;
-    --primary-color: #505050;
-
-    color: white;
-}
-
-.Modal.light {
-    --bg-color: #505050;
-    --primary-color: #fffdfd;
-
-    color: black;
-}
-
 .overlay {
     width: 100%;
     height: 100%;
@@ -35,10 +21,11 @@
 .content {
     padding: 20px;
     border-radius: 12px;
-    background: var(--primary-color);
+    background: var(--secondary-color);
     transition: 0.3s transform;
     transform: scale(0.5);
     max-width: 50%;
+    color: var(--primary-color);
 }
 
 .opened {

@@ -6,6 +6,7 @@ import React from 'react';
 import 'app/styles/index.scss';
 import { ErrorBoundary } from 'app/providers/ErrorBoundary';
 import { StoreProvider } from 'app/providers/StoreProvider';
+
 import App from './app/App';
 
 render(
@@ -18,5 +19,6 @@ render(
             </ErrorBoundary>
         </BrowserRouter>
     </StoreProvider>,
+
     document.getElementById('root'),
 );
