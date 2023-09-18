@@ -10,8 +10,11 @@
   "Коротка мова": "EN",
   "Головна сторінка": "Main page",
   "Про сайт": "About us",
-  "Увійти": "Увійти",
+  "Увійти": "Login",
   "decrement": "decrement",
-  "Введіть логін": "Введіть логін",
-  "Введіть пароль": "Введіть пароль"
+  "Введіть логін": "Enter login",
+  "Введіть пароль": "Enter password",
+  "Форма авторизації": "Authorization form",
+  "Ви ввели не вірно логін або пароль": "You entered an incorrect login or password",
+  "Вийти": "Logout"
 }

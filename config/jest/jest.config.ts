@@ -1,3 +1,8 @@
+/*
+ * For a detailed explanation regarding each configuration property and type check, visit:
+ * https://jestjs.io/docs/configuration
+ */
+
 import path from 'path';
 
 export default {
@@ -9,7 +14,6 @@ export default {
     coveragePathIgnorePatterns: [
         '\\\\node_modules\\\\',
     ],
-
     moduleFileExtensions: [
         'js',
         'jsx',
@@ -20,26 +24,20 @@ export default {
     ],
     moduleDirectories: [
         'node_modules',
-        'src',
     ],
     modulePaths: [
         '<rootDir>src',
     ],
     testMatch: [
-        // Повинна працювати на мак та на віндовс
+        // Обнаружил разницу между МАК ОС и ВИНДОУС!!!
         '<rootDir>src/**/*(*.)@(spec|test).[tj]s?(x)',
-
-        // '**/__tests__/**/*.[jt]s?(x)',
-        // '**/?(*.)+(spec|test).[tj]s?(x)',
     ],
     rootDir: '../../',
     setupFilesAfterEnv: ['<rootDir>config/jest/setupTests.ts'],
     moduleNameMapper: {
         '\\.s?css$': 'identity-obj-proxy',
-        // Мапер який вертає для svg цей компонент
         '\\.svg': path.resolve(__dirname, 'jestEmptyComponent.tsx'),
     },
-
     // Indicates whether the coverage information should be collected while executing the test
     // collectCoverage: false,
 
