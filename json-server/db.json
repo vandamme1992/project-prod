@@ -20,10 +20,19 @@
   ],
   "users": [
     {
-      "id":"1",
+      "id": "1",
       "username": "admin",
       "password": "123"
     }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "first": "Максим",
+    "lastname": "Олександрович",
+    "age": "24",
+    "currency": "UAH",
+    "country": "Ukrainian",
+    "city": "Sumy",
+    "username": "admin",
+    "avatar": "https://www.dropbox.com/scl/fi/ofd60z8m1awdgkkk4vjhv/Screenshot.png?rlkey=0ki4eps3o52xdkihez68nu4ki&dl=0"
+  }
 }

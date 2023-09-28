@@ -1,0 +1,32 @@
+.item {
+    padding-bottom: 14px;
+}
+
+.link {
+    color: var(--secondary-color);
+    margin-left: 45px;
+    opacity: 1;
+    contain: strict;
+    position: relative;
+    white-space: nowrap;
+    transition: 0.3s opacity;
+}
+
+.icon {
+    position: absolute;
+    margin-left: 15px;
+    fill: var(--secondary-color);
+    z-index: 99;
+}
+
+.collapsed {
+    .link {
+        contain: strict;
+        position: relative;
+        white-space: nowrap;
+        opacity: 0;
+        transition: 0.2s opacity;
+        width: 0;
+        z-index: 1;
+    }
+}
