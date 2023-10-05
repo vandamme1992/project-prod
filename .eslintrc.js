@@ -53,10 +53,12 @@ module.exports = {
         'no-param-reassign': 'off',
         'stylelint-declaration-colon-space-before': 'off',
         'no-tabs': ['error', { allowIndentationTabs: true }],
+        'no-undef': 'off',
     },
 
     globals: {
         __IS_DEV__: true,
+        __API__: true,
     },
     overrides: [
         {
